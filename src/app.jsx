@@ -9,7 +9,6 @@ export var App = () => {
         width: '100%',
         height: '100%',
         background: 'white',
-
         justifyContent: 'center',
         alignItems: 'center',
       }}
@@ -20,8 +19,9 @@ export var App = () => {
         style={{
           width: 357,
           height: 453,
+          border: '1px solid #FF0000',
         }}
-      ></img>
+      />
     </FlexCol>
   )
 }
