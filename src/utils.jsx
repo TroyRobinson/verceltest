@@ -1,4 +1,4 @@
-// React is loaded from global scope (UMD bundle)
+import React from 'react'
 
 export function FlexRow({ children, style, ...props }) {
   return (

@@ -1,7 +1,9 @@
-// React and ReactDOM are loaded from global scope (UMD bundle)
+import React from 'react'
+import { createRoot } from 'react-dom/client'
 import { App } from './app.jsx'
 
-const root = document.getElementById('root')
-if (root != null) {
-  ReactDOM.render(React.createElement(App), root)
+const rootElement = document.getElementById('root')
+if (rootElement != null) {
+  const root = createRoot(rootElement)
+  root.render(<App />)
 }
