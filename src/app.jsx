@@ -19,7 +19,7 @@ export var App = () => {
         style={{
           width: 357,
           height: 453,
-          border: 'solid #000000',
+          border: 'solid #D000FF',
         }}
       />
     </FlexCol>
