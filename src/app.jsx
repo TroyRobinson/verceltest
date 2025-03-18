@@ -1,5 +1,5 @@
 import React from 'react'
-import './globals.css'
+import '../public/globals.css'
 import { FlexCol } from './utils.jsx'
 
 export var App = () => {

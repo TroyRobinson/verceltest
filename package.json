@@ -4,14 +4,12 @@
   "utopia": {
     "main-ui": "utopia/storyboard.js",
     "html": "public/index.html",
-    "js": "src/index.js"
+    "js": "src/index.jsx"
   },
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "build:esbuild": "esbuild src/index.jsx --bundle --outfile=public/bundle.js --loader:.js=jsx --loader:.jsx=jsx",
-    "preview": "vite preview",
-    "serve": "serve public"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emotion/react": "^11.11.3",
@@ -23,8 +21,6 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.0",
-    "esbuild": "^0.20.2",
-    "serve": "^14.2.1",
     "vite": "^5.0.0"
   }
 }
