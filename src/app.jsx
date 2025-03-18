@@ -1,4 +1,4 @@
-import * as React from 'react'
+// React is loaded from global scope (UMD bundle)
 import './globals.css'
 import { FlexCol } from './utils.jsx'
 
