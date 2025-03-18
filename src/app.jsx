@@ -1,7 +1,6 @@
 import * as React from 'react'
-import './styles/globals.css'
-import '../public/globals.css'
-import { FlexCol } from './utils'
+import './globals.css'
+import { FlexCol } from './utils.jsx'
 
 export var App = () => {
   return (
