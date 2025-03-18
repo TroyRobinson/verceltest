@@ -1,4 +1,5 @@
 import * as React from 'react'
+import './styles/globals.css'
 import '../public/globals.css'
 import { FlexCol } from './utils'
 

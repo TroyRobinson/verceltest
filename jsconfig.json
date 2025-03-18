@@ -5,7 +5,7 @@
     "target": "ES2022",
     "module": "ES2022",
     "moduleResolution": "Bundler",
-    "baseUrl": ".",
+    "baseUrl": "."
   },
   "include": ["./**/*.d.ts", "./**/*.js", "./**/*.jsx"]
 }
