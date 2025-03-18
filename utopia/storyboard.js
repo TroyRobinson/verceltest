@@ -26,7 +26,7 @@ export var storyboard = (
         width: 744,
         height: 1133,
         position: 'absolute',
-        left: 1036,
+        left: 986,
         top: 128,
       }}
       data-label='My App'
